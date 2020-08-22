@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+        <title>Stripe with Netlfiy functions</title>
+    
+        <!-- Google fonts -->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap"
+          rel="stylesheet"
+				/>
+				<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Hind+Siliguri:wght@300;400;500&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200;400&family=Questrial&display=swap" rel="stylesheet"> 
+        <!-- Font Awesome -->
+        <script
+          src="https://kit.fontawesome.com/0a6d2c0e66.js"
+          crossorigin="anonymous"
+        ></script>
+    
+        <!-- CSS files -->
+    
+				<link rel="stylesheet" href="css/style.css" />
+				<!-- jQuery links -->
+				<!-- <script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			crossorigin="anonymous"
+		></script> -->
+
+			</head>
+			
+	<body>
+		<section class="hero-section">
+			<div class="hero">
+				<nav>
+					<ul class="nav-list">
+						<li class="nav-list-item"><a href="about.html">About Token</a></li>
+						<li class="nav-list-item"><a href="#">Token Services</a></li>
+						<li class="nav-list-item"><a href="products.html">Token Products</a></li>
+						<li class="nav-list-item"><a href="#">Contact Token</a></li>
+					</ul>
+				</nav>
+				<div class="menu-toggle">
+						<div class="hamburger"></div>
+					</div>
+					<div class="primary-heading">
+						<p><span class="token">token</span><span class="site">site</span></p>
+					</div>
+									<div class="btn">
+						<p>Book Appointment</p>
+					</div>
+			</div>
+		</section>
+		<section class="product-intro">
+			<div class="product-heading">
+				<p>This is No Ordinary Product.</p>
+			</div>
+			<div class="text-container">
+				<div class="text">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga neque
+						sapiente impedit.
+					</p>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates animi
+						quaerat alias repellat dolores sint delectus earum consequuntur eos,
+						tempora iusto itaque error accusantium non! A molestiae quam perspiciatis
+						itaque, optio natus.
+					</p>
+				</div>
+			</div>
+    </section>
+    <main>
+        <div class="products"></div>
+
+        <template id='product'>
+          <div class="product">
+            <img src="" alt=""/>
+            <h3 class="product-name">name</h3>
+            <p class="description">description</p>
+            <div class="the-price">
+                <p class="price">price</p>
+            </div>
+            <!-- <p class="price">price</p> -->
+            <form action="" method="post">
+              <label for="quantity">Quantity</label>
+              <input class="qunatity" type="number"
+              id="quantity"
+              name="quantity"
+              value="1"
+              min="1"
+              max="10"
+              />
+              <input type="hidden" name="sku" value=""/>
+              <button type="submit">Buy Now</button>
+            </form>
+          </div>
+        </template>
+    </main>
+    
+	
+
+			<footer class="footer">
+					<div class="contact-details-footer">
+						<a href="mailto:info@takensite.com">info@tokensite.com</a>
+						<p type="number">0450 123456</p>
+					</div>
+					<div class="social-media">
+						<div class="media">
+							<div class="facebook">
+							<a href="#" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							</div>
+						<div class="twitter">
+							<a href="#" rel="noopener noreferrer" target="_blank"
+							><i class="fab fa-twitter"></i></a>
+						</div>
+					</div>
+						</div>
+							<div class="privacy">
+							<a href="#">Privacy Policy</a>
+						</div>
+						</div>
+					<div class="copyright">
+						<p>&copy 2020 Token Site All Rights Reserved</p>
+					</div>
+				</footer>
+
+<!-- JavaScript File -->
+  <script type="module">
+    import { loadProducts } from './js/load-products.js';
+
+    loadProducts();
+  
+  </script>
+
+		<!-- <script type="text/javascript" src="./js/index.js"></script> -->
+	</body>
+</html>

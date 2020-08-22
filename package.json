@@ -1,0 +1,11 @@
+{
+  "name": "jamstack_stripe",
+  "version": "1.0.0",
+  "description": "Experimenting with stripe in a jamstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ciaran",
+  "license": "ISC"
+}

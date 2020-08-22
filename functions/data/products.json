@@ -1,0 +1,18 @@
+[
+	{
+		"sku": "DEB001",
+		"name": "Organic Lip Balm",
+		"description": "Lip Balm that as the name suggests, is organic.",
+		"image": "https://images.unsplash.com/photo-1570723968307-49834ffa3cce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+		"amount": 1000,
+		"currency": "AUD"
+	},
+	{
+		"sku": "DEB002",
+		"name": "Barrier Cream",
+		"description": "A clay cleanser that's not only clay, but organic clay.  Woof!",
+		"image": "https://images.unsplash.com/photo-1570723811540-0f4d1836ef58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+		"amount": 1000,
+		"currency": "AUD"
+	}
+]

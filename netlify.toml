@@ -1,0 +1,5 @@
+# Tell Netlify where our public folders are - this is the folder/files that are actually going to get servered.  And we also tell Netlify ehere our functions are stored, which is within the functions folder.
+
+[build]
+  publish = "public"
+  functions = "functions" 
